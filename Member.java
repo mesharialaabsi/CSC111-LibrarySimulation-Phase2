@@ -113,7 +113,7 @@ public class Member {
         this.sessionFees = 0.0;  
     }  
 
-    //   Getters and Setters
+    //   Getters and Setters As needed
   
 
     public int getId() {  
@@ -136,4 +136,5 @@ public class Member {
         this.borrowedCount = borrowedCount;  
     }  
 }
+
 
