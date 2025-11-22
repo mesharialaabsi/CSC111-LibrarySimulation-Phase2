@@ -61,7 +61,7 @@ public class Member {
     // Attempts to borrow one book (adds a fee of 0.50)
     public boolean borrowOne() {  
         if (!canBorrow()) {  
-            System.out.println("ERROR: Borrow limit reached (max 5 books).");  
+            System.out.println("ERROR: Borrow limit have been reached (max 5 books).");  
             return false;  
         }  
 
@@ -113,7 +113,7 @@ public class Member {
         this.sessionFees = 0.0;  
     }  
 
-    //   Getters and Setters
+    //   Getters and Setters As needed
   
 
     public int getId() {  
@@ -136,3 +136,5 @@ public class Member {
         this.borrowedCount = borrowedCount;  
     }  
 }
+
+
